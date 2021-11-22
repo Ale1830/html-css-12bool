@@ -7,3 +7,63 @@
 *{
     font-size: 13px;
 }
+
+[class*="col"]{
+    background-color: #006cfaf1;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    min-height: 40px;
+}
+
+.container-fluid{
+    margin-bottom: 15px;
+}
+
+.col-xs-5 div,
+.col-xs-6 div,
+.col-xs-7 div,
+.around div,
+.between div {
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+h4{
+    font-size: 11px;
+}
+
+.left{
+    justify-content: flex-start;
+}
+.center{
+    justify-content: center;
+}
+.right{
+    justify-content: flex-end;
+}
+
+.double{
+    height: 100px;
+}
+.normal{
+    height: 50px;
+}
+.top{
+    align-items: flex-start;
+}
+.middle{
+    align-items: center;
+}
+.bottom{
+    align-items: flex-end;
+}
+
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
